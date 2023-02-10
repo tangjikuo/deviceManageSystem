@@ -8,3 +8,6 @@ from device.serializers import DeviceSerializer
 class DeviceView(generics.ListCreateAPIView):
     queryset = Device.objects.all()
     serializer_class = DeviceSerializer
+
+
+
